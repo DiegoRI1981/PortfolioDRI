@@ -4,6 +4,7 @@ export default {
     /* ... */
   },
   plugins: [
+    '@snowpack/plugin-postcss',
     /* ... */
   ],
   routes: [
@@ -18,6 +19,7 @@ export default {
     /* ... */
   },
   devOptions: {
+    tailwindConfig: './tailwind.config.js',
     /* ... */
   },
   buildOptions: {
